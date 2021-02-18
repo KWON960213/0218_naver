@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+div#wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* reset 시작 */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {color: #333;}
+a:visited {color: #333;}
+a:hover {color: #333;}
+a:active {color: #333;}
+
+ul {list-style: none;}
+
+/* reset 끝 */
+
+
+div#wrap>h2#companylogo {
+    color: #00c850;
+    text-align: center;
+}
+
+div#memid>span {
+    width: 460px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 16px 10px;
+}
+
+.inputarea::after {
+    content: "@naver.com";
+    color: #b9bfc6;
+}
+
+div#memid input {
+    width: 77%;
+    border: none;
+    outline: none;
+}
+
+
+
+
